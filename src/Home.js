@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState }  from "react";
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
 import Button from './Button';
@@ -6,6 +6,8 @@ import Average from "./Average";
 
 const reset= () => { window.location.reload(false)}
 const Home = (props) => {
+  const [count ,setCount] = useState(0);
+  
   return (
     <>
     
@@ -48,7 +50,7 @@ const Home = (props) => {
     </div>
     <div>평균 평점</div>
     <div><Average /></div>
-    <div><button onClick={reset}className='mybtn'>Reset</button></div>
+    <div><button onClick={reset} className='mybtn'>Reset</button></div>
     </div>
     </>
   )
