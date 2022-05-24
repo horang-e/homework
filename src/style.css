@@ -1,0 +1,74 @@
+*{
+  font-family: 이롭게 바탕체;
+}
+.App{
+  border: 2px rgb(221, 218, 218) solid;
+  height: 800px;
+  width: 500px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.App > h3{
+  margin-top: 50px;
+}
+.wrap {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrap > div{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+
+  margin : 10px;
+}
+
+.mybtn{
+  width: 150px;
+  background-color: rgb(74, 74, 209);
+  color: aliceblue;
+  height: 40px;
+  border: 1px none;
+  margin-top: 20px;
+}
+
+.mybtn2{
+  width: 150px;
+  background-color: rgb(168, 42, 168);
+  color: aliceblue;
+  height: 40px;
+  border: 1px none;
+  margin-top: 30px;
+}
+
+.rank{
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid transparent;
+  border-top: 30px solid transparent;
+  border-left: 30px solid skyblue;
+  border-right: 28px solid transparent;
+  margin-left: 20px
+}
+
+.day{
+  background-color: rgb(24, 103, 168);
+  color: antiquewhite;
+  border-radius : 10px;
+  padding : 7px;
+}
+
+.circle{
+  margin:10px; width: 40px; height: 40px; background:grey; border-radius :250px
+}
+.circle2{
+  margin:10px; width: 40px; height: 40px; background:rgb(35, 47, 209); border-radius :250px
+}
