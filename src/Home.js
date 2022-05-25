@@ -4,13 +4,12 @@ import Rating from './Rating';
 import Button from './Button';
 import Average from "./Average";
 
+
+
 const reset= () => { window.location.reload(false)}
-const Home = (props) => {
-  const [count ,setCount] = useState(0);
-  
+const Home = () => { 
   return (
     <>
-    
       <div className="App">
       <h2 style={{marginTop:"15px"}}>내 일주일은?</h2>
     <div className='wrap'>
