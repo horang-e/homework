@@ -1,5 +1,4 @@
 import './App.css';
-
 import DayRating from './DayRating';
 import Home from "./Home"
 import { Route, Routes } from "react-router-dom" 
